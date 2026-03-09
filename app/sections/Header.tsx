@@ -7,36 +7,37 @@ const Header = () => {
   return (
     <header className="flex flex-col lg:flex-row justify-between mx-0 mt-40 lg:mt-0 items-center  bg-center xl:mx-[10%] lg:mx-[7%] md:mx-[7%] lg:min-h-screen  ">
       <section
-        className=" w-full  xl:w-[70%] relative pb-10   flex flex-col gap-4 lg:w-[70%]"
+        className="w-full xl:w-[70%] relative pb-10 flex flex-col gap-4 lg:w-[70%]"
         data-aos="fade-right"
       >
         <div className="flex flex-col gap-2">
-          <span className="  text-lg">Hi, I'm</span>
-          <h1 className=" font-bold  text-6xl md:text-7xl font-display">
+          <span className="text-lg">Hi, I'm</span>
+          <h1 className="font-bold text-6xl md:text-7xl font-display">
             Farouk Mustapha
           </h1>
         </div>
+
         <div className="relative">
-          <p className="mt-2 leading-relaxed text-base md:text-lg ">
+          <p className="mt-2 leading-relaxed text-base md:text-lg">
             I build scalable web platforms and{" "}
             <span className="text-[#E88D67] font-medium">
               real-time 3D experiences
             </span>{" "}
-            that run directly in the browser. My work spans full-stack
-            applications, intelligent systems, and interactive WebGL
-            environments — turning complex ideas into clean, high-performance
-            products.
+            that run directly in the browser. My work combines modern frontend
+            development, full-stack systems, and computational thinking to
+            create performant, reliable products.
             <br />
             <br />
             Let’s build something remarkable together.
           </p>
         </div>
+
         <Button asChild variant={"outline"}>
           <Link
             target="_blank"
             rel="noopener noreferrer"
-            href={"mailto:your.mustaphafarouk41@gmail.com"}
-            className="flex items-center border-black justify-center gap-3 px-5 py-2  font-medium w-max  border-[1px]  mt-5 "
+            href={"mailto:mustaphafarouk41@gmail.com"}
+            className="flex items-center border-black justify-center gap-3 px-5 py-2 font-medium w-max border-[1px] mt-5"
           >
             Get in Touch
             <Image
@@ -44,7 +45,7 @@ const Header = () => {
               src={"/svgs/message-programming.svg"}
               width={25}
               height={25}
-            />{" "}
+            />
           </Link>
         </Button>
       </section>
