@@ -19,33 +19,22 @@
 
 ::-webkit-scrollbar {
   width: 8px;
-  background: #f2f2f2;
+  background: transparent;
   border-radius: 20px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #fbeddd;
-  border-left: 1px solid #e88d67;
-  border-right: 1px solid #e88d67;
+  background: #e88d67;
   border-radius: 20px;
 }
 
 #companies-scrollbar::-webkit-scrollbar {
-  height: 0;
-  background: transparent;
+  display: none;
 }
 
-#companies-scrollbar:hover::-webkit-scrollbar {
-  height: 1px;
-  background: #f2f2f2;
-  border-radius: 10px;
-}
-
-#companies-scrollbar:hover::-webkit-scrollbar-thumb {
-  background: #e88e6759;
-  border-left: 1px solid #e88d67;
-  border-right: 1px solid #e88d67;
-  border-radius: 10px;
+#companies-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 @tailwind utilities;

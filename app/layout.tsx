@@ -117,7 +117,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${rubik.variable} ${sora.variable} ${archivo.variable} font-sans antialiased `}
+        className={`${rubik.variable} ${sora.variable} ${archivo.variable} font-sans antialiased overflow-x-hidden`}
       >
         <Providers>
           <TopoWaves />

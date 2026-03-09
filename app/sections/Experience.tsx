@@ -28,10 +28,13 @@ const Experience = () => {
       const selectedTabOffsetLeft = selectedTab.offsetLeft;
       const selectedTabWidth = selectedTab.clientWidth;
 
-      container.scroll({
-        left: selectedTabOffsetLeft - containerWidth / 2 + selectedTabWidth / 2,
-        behavior: "smooth",
-      });
+      if (isMobile) {
+        container.scroll({
+          left:
+            selectedTabOffsetLeft - containerWidth / 2 + selectedTabWidth / 2,
+          behavior: "smooth",
+        });
+      }
     }
   };
 
@@ -83,7 +86,7 @@ const Experience = () => {
         </span>
         <div className="w-[5%] lg:w-36 border-b-[1px] border-b-border-color"></div>
       </header>
-      <div className="flex flex-col gap-5 lg:flex-row w-full py-10 lg:gap-10 items-center">
+      <div className="flex flex-col gap-5 lg:flex-row w-full py-10 lg:gap-10 items-center lg:items-start">
         <div
           id="companies-scrollbar"
           ref={containerRef}
@@ -93,7 +96,7 @@ const Experience = () => {
           {companies.map((company, id) => (
             <div
               key={id}
-              className={`lg:w-full cursor-pointer hover:text-primary-color hover:bg-[#FBEDDD] transition-all px-5 py-2  ${
+              className={`lg:w-full min-w-max flex-shrink-0 cursor-pointer hover:text-primary-color hover:bg-[#FBEDDD] transition-all px-5 py-2  ${
                 tab === id &&
                 " lg:border-l-2 border-secondary-color-3 bg-[#FBEDDD] text-primary-color font-medium"
               }`}
@@ -103,7 +106,7 @@ const Experience = () => {
             </div>
           ))}
         </div>
-        <div className="w-[100%] lg:w-[60%] ">
+        <div className="w-[100%] lg:w-[60%] overflow-x-hidden">
           <AnimatePresence mode="wait" custom={direction}>
             <motion.div
               key={tab}
@@ -114,7 +117,7 @@ const Experience = () => {
               custom={direction}
               transition={{ duration: 0.5 }}
             >
-              <h3 className="text-lg font-medium font-grotesk">
+              <h3 className=" text-base lg:text-lg font-medium font-grotesk">
                 {companiesInfo[tab].title} @
                 <span className="text-secondary-color-3">
                   {companiesInfo[tab].company}

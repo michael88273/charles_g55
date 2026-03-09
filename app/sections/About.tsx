@@ -54,14 +54,14 @@ const About = () => {
             <br />
             I enjoy transforming complex ideas, whether design concepts or
             engineering models into interactive, high-performance digital
-            experiences. I’ve collaborated with product designers, developers,
-            and DevOps teams to deliver production-ready systems, simulation
-            tools, and visualization platforms.
+            experiences. I’ve collaborated with product designers, 3D artists,
+            developers, and DevOps teams to deliver production-ready systems,
+            simulation tools, and visualization platforms.
             <br />
             <br />
-            Outside of code, I play chess, watch anime, and constantly look for
-            better ways to solve problems. I genuinely enjoy building things and
-            no matter what happens, I’ll always be an engineer.
+            Outside of code, I play chess and watch anime. I genuinely enjoy
+            building things and no matter what happens, I’ll always be an
+            engineer.
           </article>
         </div>
       </div>

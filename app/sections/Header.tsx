@@ -17,20 +17,18 @@ const Header = () => {
           </h1>
         </div>
         <div className="relative">
-          <Badge
-            variant={"secondary"}
-            className=" font-display text-base sm:text-xl"
-          >
-            A Software Developer!
-          </Badge>
-          <p className="mt-2 leading-relaxed text-base md:text-lg">
-            I specialize in building responsive Web and Mobile Apps using React,
-            React Native, Next.js,{" "}
+          <p className="mt-2 leading-relaxed text-base md:text-lg ">
+            I build scalable web platforms and{" "}
             <span className="text-[#E88D67] font-medium">
-              TypeScript, Python
-            </span>
-            , WebGL, Node.js, Tailwind CSS, and other modern tools — turning
-            designs into delightful user experiences.
+              real-time 3D experiences
+            </span>{" "}
+            that run directly in the browser. My work spans full-stack
+            applications, intelligent systems, and interactive WebGL
+            environments — turning complex ideas into clean, high-performance
+            products.
+            <br />
+            <br />
+            Let’s build something remarkable together.
           </p>
         </div>
         <Button asChild variant={"outline"}>
