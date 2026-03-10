@@ -111,7 +111,7 @@ export const companies = [
 
 export const companiesInfo = [
   {
-    title: "Software Engineer",
+    title: "Frontend / 3D Software Engineer",
     company: "ThreadSwift- Digital Fashion Platform",
     location: "Remote",
     duration: "August 2025 – Present",
