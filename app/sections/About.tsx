@@ -47,9 +47,9 @@ const About = () => {
             <br />
             A Software Developer based in Lagos, Nigeria, with over 3 years of
             experience building web and mobile apps. I work mostly with
-            JavaScript, TypeScript, Python, React, React Native, Next.js, and
-            Nodejs, turning ideas and designs into clean, functional user
-            interfaces.
+            JavaScript, TypeScript, Python, React, React Native, Next.js,
+            Vue.js, Angular and Nodejs, turning ideas and designs into clean,
+            functional user interfaces.
             <br />
             <br />
             I enjoy transforming complex ideas, whether design concepts or

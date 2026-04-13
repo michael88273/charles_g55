@@ -27,12 +27,20 @@ export const technologies = [
     iconLink: "https://cdn.simpleicons.org/react",
   },
   {
-    name: "NextJs",
+    name: "Next.Js",
     iconLink: "https://cdn.simpleicons.org/nextdotjs",
   },
   {
     name: "Expo React Native",
     iconLink: "https://cdn.simpleicons.org/expo",
+  },
+  {
+    name: "Vue.Js",
+    iconLink: "https://cdn.simpleicons.org/vuedotjs",
+  },
+  {
+    name: "Angular",
+    iconLink: "https://cdn.simpleicons.org/angular",
   },
   {
     name: "JavaScript",
