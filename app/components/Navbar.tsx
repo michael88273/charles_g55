@@ -24,14 +24,7 @@ const Navbar = () => {
         href="/"
         className="flex justify-start sm:justify-center items-center  uppercase tracking-wider"
       >
-        <h1 className="text-3xl sm:text-3xl font-bold lg:text-4xl text-secondary-color-3 font-idgrotesk">
-          Dev
-        </h1>
-        <p className="text-xl sm:text-2xl lg:text-2xl font-extrabold font-grotesk">
-          Far
           <ThemeSwitcher />
-          uk
-        </p>
       </Link>
       <div className="hidden md:flex items-center gap-2  leading-relaxed text-base md:text-lg ">
         <nav className="w-full flex flex-row items-center">

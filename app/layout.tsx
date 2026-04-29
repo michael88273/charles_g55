@@ -33,7 +33,7 @@ export const archivo = Archivo({
 });
 
 export const metadata: Metadata = {
-  title: "Farouk Mustapha | Software Engineer Portfolio",
+  title: "Charles Garrett | Senior Software Engineer",
   description:
     "Farouk Mustapha is a Software Engineer specializing in building WebApps with React, Next.js, and TypeScript. Explore my portfolio to see my work, experiences, and skills in creating engaging web experiences.",
   keywords: [
@@ -86,27 +86,13 @@ export const metadata: Metadata = {
   ],
   robots: "index, follow",
   openGraph: {
-    title: "Farouk Mustapha | Software Engineer Portfolio",
+    title: "Charles Garrett",
     description:
       "Explore the portfolio of Farouk Mustapha, a Software Engineer skilled in React, Next.js, TypeScript, and Node.js. Discover engaging web applications and progressive web app projects.",
     url: "https://devfarouk.vercel.app ",
     type: "website",
-    images: [
-      {
-        url: "https://devfarouk.vercel.app/devfarouk.png",
-        alt: " Farouk Mustapha | Software Engineer Portfolio",
-        width: 1200,
-        height: 630,
-      },
-    ],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Farouk Mustapha | Frontend Engineer Portfolio",
-    description:
-      "Frontend Engineer specializing in building WebApps with React, Next.js, and TypeScript. Discover my works and projects.",
-    images: "https://devfarouk.vercel.app/devfarouk.png",
-  },
+
 };
 
 export default function RootLayout({

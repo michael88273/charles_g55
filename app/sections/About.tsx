@@ -42,26 +42,14 @@ const About = () => {
         </div>
         <div className="w-full lg:w-[50%] order-1 lg:order-2">
           <article className="leading-relaxed text-base md:text-lg">
-            I'm Farouk Mustapha, also known as{" "}
-            <span className="text-[#E88D67]">devFarouk</span> <br />
             <br />
-            A Software Developer based in Lagos, Nigeria, with over 3 years of
-            experience building web and mobile apps. I work mostly with
-            JavaScript, TypeScript, Python, React, React Native, Next.js,
-            Vue.js, Angular and Nodejs, turning ideas and designs into clean,
-            functional user interfaces.
+            With over 10 years of hands-on experience, I design and build scalable digital products for startups and growing businesses across a variety of industries.
             <br />
             <br />
-            I enjoy transforming complex ideas, whether design concepts or
-            engineering models into interactive, high-performance digital
-            experiences. I’ve collaborated with product designers, 3D artists,
-            developers, and DevOps teams to deliver production-ready systems,
-            simulation tools, and visualization platforms.
+          I work across the full product lifecycle, from system design and architecture to development, testing, and deployment, ensuring efficient and scalable solutions. I build robust backend systems, develop responsive frontends, design APIs, and manage cloud infrastructure. I also lead engineering teams, optimize development workflows, and ensure systems are secure, high-performing, and built to scale.
             <br />
             <br />
-            Outside of code, I play chess and watch anime. I genuinely enjoy
-            building things and no matter what happens, I’ll always be an
-            engineer.
+          I focus on delivering high-quality solutions that are fast, user-friendly, and built for long-term success, turning complex ideas into practical products that drive real results.
           </article>
         </div>
       </div>

@@ -11,24 +11,16 @@ const Header = () => {
         data-aos="fade-right"
       >
         <div className="flex flex-col gap-2">
-          <span className="text-lg">Hi, I'm</span>
           <h1 className="font-bold text-6xl md:text-7xl font-display">
-            Farouk Mustapha
+            Charles Garrett
           </h1>
         </div>
 
         <div className="relative">
           <p className="mt-2 leading-relaxed text-base md:text-lg">
-            I build scalable web platforms and{" "}
-            <span className="text-[#E88D67] font-medium">
-              real-time 3D experiences
-            </span>{" "}
-            that run directly in the browser. My work combines modern frontend
-            development, full-stack systems, and computational thinking to
-            create performant, reliable products.
+          I am a Technical Lead and Full-Stack Engineer with 10+ years of experience building and scaling digital products for startups and growing businesses. Over my career, I’ve led distributed teams and delivered high-impact solutions, focusing on performance, reliability, and long-term growth. I specialize in turning complex ideas into simple, effective products that create real business value and great user experiences.
             <br />
             <br />
-            Let’s build something remarkable together.
           </p>
         </div>
 
@@ -36,7 +28,7 @@ const Header = () => {
           <Link
             target="_blank"
             rel="noopener noreferrer"
-            href={"mailto:mustaphafarouk41@gmail.com"}
+            href={"charlesgarrett892@outlook.com"}
             className="flex items-center border-black justify-center gap-3 px-5 py-2 font-medium w-max border-[1px] mt-5"
           >
             Get in Touch
@@ -49,27 +41,8 @@ const Header = () => {
           </Link>
         </Button>
       </section>
-      <section
-        className=" w-full justify-center md:justify-center relative flex lg:justify-end items-center xl:w-[30%] h-[25rem] bg-center lg:bg-right bg-contain bg-no-repeat lg:w-[30%] group"
-        style={{ backgroundImage: "url('/svgs/profile-bg.svg')" }}
-        data-aos="zoom-in"
-      >
-        <div className="relative h-[18rem] w-[18rem] lg:h-[17rem] lg:w-[17rem]">
-          <Image
-            alt="profile image"
-            src={"/profile.webp"}
-            quality={100}
-            className="grayscale-[30%] contrast-[1.15] saturate-[1.1] transition-all"
-            style={{
-              borderRadius: "50%",
-              height: "100%",
-              width: "100%",
-            }}
-            objectFit="cover"
-            layout="fill"
-          />
-        </div>
-      </section>
+       
+      
     </header>
   );
 };

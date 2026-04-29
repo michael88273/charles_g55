@@ -1,103 +1,103 @@
 export const socialLinks = [
   {
     name: "Github",
-    link: "https://github.com/Farouk-ayo",
+    link: "https://github.com/newthing22",
     simpleIcon: "/svgs/github.svg",
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/Faroukayo",
+    link: "https://www.linkedin.com/in/charles-d-garrett/",
     simpleIcon: "/svgs/linkedIn.svg",
-  },
-  {
-    name: "X",
-    link: "https://x.com/Faroukayo24",
-    simpleIcon: "/svgs/x.svg",
-  },
-
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/dev_farouk/",
-    simpleIcon: "/svgs/insta.svg",
   },
 ];
 export const technologies = [
-  {
-    name: "React",
-    iconLink: "https://cdn.simpleicons.org/react",
-  },
-  {
-    name: "Next.Js",
-    iconLink: "https://cdn.simpleicons.org/nextdotjs",
-  },
-  {
-    name: "Expo React Native",
-    iconLink: "https://cdn.simpleicons.org/expo",
-  },
-  {
-    name: "Vue.Js",
-    iconLink: "https://cdn.simpleicons.org/vuedotjs",
-  },
-  {
-    name: "Angular",
-    iconLink: "https://cdn.simpleicons.org/angular",
-  },
   {
     name: "JavaScript",
     iconLink: "https://cdn.simpleicons.org/javascript",
   },
   {
-    name: "Python",
-    iconLink: "https://cdn.simpleicons.org/python",
-  },
-  {
     name: "TypeScript",
     iconLink: "https://cdn.simpleicons.org/typescript",
   },
+
+  {
+    name: "React",
+    iconLink: "https://cdn.simpleicons.org/react",
+  },
+  {
+    name: "NextJs",
+    iconLink: "https://cdn.simpleicons.org/nextdotjs",
+  },
+   {
+    name: "Vue",
+    iconLink: "https://cdn.simpleicons.org/vuedotjs",
+  },
+   {
+    name: "Angular",
+    iconLink: "https://cdn.simpleicons.org/Angular",
+  },
+  {
+    name: "React Native",
+    iconLink: "https://cdn.simpleicons.org/expo",
+  },
+
   {
     name: "TailwindCss",
     iconLink: "https://cdn.simpleicons.org/tailwindcss",
   },
-
-  {
-    name: "Three.js",
-    iconLink: "https://cdn.simpleicons.org/threedotjs",
-  },
-  {
-    name: "Sass",
-    iconLink: "https://cdn.simpleicons.org/sass",
-  },
-  {
-    name: "Redux",
-    iconLink: "https://cdn.simpleicons.org/redux",
-  },
-  {
-    name: "Shadcn/ui",
-    iconLink: "https://cdn.simpleicons.org/shadcnui",
-  },
-  {
-    name: "Chakra UI",
-    iconLink: "https://cdn.simpleicons.org/chakraui",
-  },
-  {
-    name: "Mui",
-    iconLink: "https://cdn.simpleicons.org/mui",
-  },
-  {
-    name: "Headless UI",
-    iconLink: "https://cdn.simpleicons.org/headlessui",
-  },
-  {
-    name: "Framer Motion",
-    iconLink: "https://cdn.simpleicons.org/framer",
-  },
-  {
-    name: "Git",
-    iconLink: "https://cdn.simpleicons.org/git",
-  },
   {
     name: "NodeJs",
     iconLink: "https://cdn.simpleicons.org/nodedotjs",
+  },
+    {
+    name: "Express",
+    iconLink: "https://cdn.simpleicons.org/express",
+  },
+
+  {
+    name: "Python",
+    iconLink: "https://cdn.simpleicons.org/python",
+  },
+
+    {
+    name: "Django",
+    iconLink: "https://cdn.simpleicons.org/django",
+  },
+      {
+    name: ".Net",
+    iconLink: "https://cdn.simpleicons.org/dotnet",
+  },
+  
+   {
+    name: "MySQL",
+    iconLink: "https://cdn.simpleicons.org/mysql",
+  },
+
+  {
+    name: "MongoDB",
+    iconLink: "https://cdn.simpleicons.org/mongodb",
+  },
+
+    {
+    name: "Firebase",
+    iconLink: "https://cdn.simpleicons.org/firebase",
+  },
+
+    {
+    name: "Git",
+    iconLink: "https://cdn.simpleicons.org/git",
+  },
+    {
+    name: "Docker",
+    iconLink: "https://cdn.simpleicons.org/docker",
+  },
+  {
+    name: "Jira",
+    iconLink: "https://cdn.simpleicons.org/Jira",
+  },
+  {
+    name: "Kubernetes",
+    iconLink: "https://cdn.simpleicons.org/Kubernetes",
   },
 ];
 
@@ -109,293 +109,165 @@ export const sections = [
 ];
 
 export const companies = [
-  "ThreadSwift",
-  "PharmaEco",
-  "ReboundMedia",
-  "Pathpalz",
-  "Berrystamp",
-  "JustDo Startup",
+  "Dotlogics",
+  "Origami Studios",
+  "Binti",
+  "Vitanur",
 ];
 
 export const companiesInfo = [
   {
-    title: "Frontend / 3D Software Engineer",
-    company: "ThreadSwift- Digital Fashion Platform",
+    title: "Senior Full Stack Developer",
+    company: "Dotlogics",
     location: "Remote",
-    duration: "August 2025 – Present",
+    duration: "September 2022 – November 2025 ",
     roles: [
-      "Engineered a full-stack marketplace system enabling users to browse, favorite, and purchase 3D fashion assets, implementing seamless product CRUD operations and subscription-based payment architecture.",
-      "Built an advanced studio for users, implementing auto-fitting, rigging, and animation systems that optimized 3D clothing adaptation to avatars using Three.js.",
-      "Collaborated with designers and 3D artists to translate creative concepts into interactive real-time previews using Three.js and React Three Fiber, optimizing render performance for complex models.",
+      "Scaled high-traffic applications to 90K+ monthly users while maintaining fast, reliable performance.",
+      "Improved search accuracy and user experience through advanced data and ranking optimizations.",
+      "Achieved 99.8% uptime and reduced cloud costs by optimizing infrastructure and system design.",
+      "Accelerated release cycles from days to ~1.5 hours with automated deployment pipelines, reducing production issues.",
+      "Strengthened engineering standards, improving code quality, maintainability, and team onboarding speed."
     ],
   },
   {
-    title: "Web and Mobile App Developer",
-    company: "PharmaEco -AI-Powered Pharmaceutical Waste Management  ",
-    location: "Lagos Nigeria",
-    duration: "January 2025 - Present",
+    title: "Senior Full Stack Web & Mobile Developer",
+    company: "Origami Studios",
+    location: "New Jersey, US",
+    duration: "February 2020 - July 2022",
     roles: [
-      "Built and represented PharmaEcoGuard EMR at AHEAD Africa Healthtech Conference Innovation Hackathon 2025, winning People's Choice Award for a smart pharmacy care and pharmacovigilance platform integrating patient documentation, ADR identification via Dorra EMR API, and pharmaceutical waste tracking",
-      "Developed full-stack AI-driven PWA with multi-page architecture addressing pharmaceutical waste management across Nigeria, implementing chatbot functionality, educational content system, geolocation-based disposal mapping, and community engagement features supporting multiple UN Sustainable Development Goals",
-      "Built a comprehensive waste tracking and pharmacy registration system with full CRUD operations, enabling facilities to record returned medicines, monitor packaging disposal, earn sustainability points, and achieve sub-200ms API response times across 20+ registered pharmacies",
+      "Led development across multiple SaaS products, aligning distributed teams and improving delivery across web and mobile platforms.",
+      "Built a cloud-based platform that streamlined operations, saving 10+ hours per week for thousands of users.",
+      "Improved scalability by implementing efficient system architecture to handle high traffic spikes.",
+      "Reduced API response times significantly through database and performance optimizations.",
+      "Strengthened security and sped up deployments with automated workflows and best practices.",
+      "Enhanced user experience with smarter search capabilities, reducing time to find information.",
     ],
   },
   {
-    title: "Frontend Engineer",
-    company: "ReboundMedia - JustIron Laundry",
-    location: "Nigeria",
-    duration: "October 2024 - December 2024 (Contract)",
+    title: "Full Stack Developer",
+    company: "Binti",
+    location: "Remote",
+    duration: "May 2017 - November 2019",
     roles: [
-      "Engineered sophisticated pricing calculation system handling multi-variable logic for service types (washing, dry cleaning, ironing), item categories (bedsheets, shirts, suits), and quantity modifiers with real-time database synchronization.",
-      "Streamlined user onboarding experience by implementing seamless sign-up to checkout flow, automatically authenticating users post-registration and maintaining session state throughout the order process.",
-      "Optimized performance across booking, scheduling, and tracking modules, delivering enhanced user experience for UK-based laundry service customers.",
+     "Delivered an analytics platform serving 10K+ users, improving overall system performance through backend optimization and caching.",
+     "Increased campaign ROI by implementing data-driven prediction models in production.",
+     "Boosted mobile performance significantly by optimizing frontend assets and reducing load size.",
+     "Built real-time analytics systems, enabling multiple teams to monitor KPIs and make faster, data-driven decisions."
     ],
   },
   {
-    title: "Lead Frontend Engineer",
-    company: "Pathpalz - GSwift Ridesharing PWA",
-    location: "Uk(remote)",
-    duration: "February 2023 - September 2024",
+    title: "Junior Developer",
+    company: "Vitanur",
+    location: "New York, US",
+    duration: "July 2016 - March 2017",
     roles: [
-      "Developed a PWA for ride-sharing, enabling users to find nearby commuters and share rides in real time.",
-      "Built responsive interfaces optimized for smooth navigation and consumption of geolocation and commuter-tracking API",
+     "Built reusable components across multiple projects, reducing duplicate work and speeding up feature delivery.",
+     "Simplified development setup by containerizing applications, cutting onboarding time from hours to minutes.",
+     "Improved code quality and deployment stability by introducing automated checks, catching issues earlier in the development cycle."
     ],
   },
-  {
-    title: "Frontend Engineer",
-    company: "Berrystamp - Decentralized Print-on-Demand",
-    location: "Lagos, Nigeria",
-    duration: "October 2023 - February 2024",
-    roles: [
-      "Led admin dashboard development for a decentralized print-on-demand platform.",
-      "Implemented complex API integrations and scalable component architecture during early startup growth.",
-    ],
-  },
-
-  {
-    title: "Frontend Developer",
-    company: "JustDo-Startup (JDS)",
-    location: "Lagos Nigeria",
-    duration: "February 2023 – July 2023",
-    roles: [
-      "Contributed to a community of developers and product designers, in developing a webApp(E-vent). The (E-vent) webApp is designed and developed with React, JavaScript, Vite, and cutting edge React 18 features to provide a centralized platform for event planners, organizers and attendees, to coordinate and manage various aspects of events such as scheduling, ticketing, registration, marketing and communication.",
-    ],
-  },
+ 
 ];
 
 export const projects = [
   {
-    name: "PharmaEco",
+    name: "All Things Barbeque",
     type: "Featured Project",
     description:
-      "PharmaEco is an AI-powered pharmaceutical waste management platform promoting safe disposal, recycling, and sustainability across Nigeria. It integrates an AI chatbot, community engagement, and regulatory compliance to support a greener future and multiple UN SDGs.",
-    image: "/pharmaeco.webp",
-    liveLink: "https://pharmaeco.org",
+      "ATBBQ is a high traffic eCommerce platform for premium outdoor cooking products. Working closely with a cross functional team, I contributed to the React frontend by building responsive product pages, smooth navigation and an optimized checkout experience. On the backend, we used Node.js to develop scalable APIs for product, cart and order management. I collaborated with teammates to integrate Stripe for secure payment processing and reliable transaction handling.",
+    image: "/1.jpg",
+    liveLink: "https://www.atbbq.com/",
     stacks: [
-      "Next.js",
-      "TypeScript",
+      "React.js",
+      "JavaScript",
       "Node.Js",
       "TailwindCss",
-      "PWA",
-      "Vercel",
     ],
   },
   {
-    name: "BFN 2025 Yearbook",
+    name: "Ronatec",
     type: "Featured Project",
     description:
-      "Developed the Black Founders Network 2025 Yearbook microsite to celebrate founders, facilitate live voting, and enhance visibility within the BFN community.",
-    image: "/bfn-2025.webp",
-    liveLink: "https://www.programs-bfn.ca/yearbook-2025",
-    stacks: ["TypeScript", "React", "TailwindCss", "AOS", "Firebase"],
-  },
-  {
-    name: "RxQuadri",
-    type: "Featured Project",
-    description:
-      "Portfolio of a UI/UX Designer creating intuitive digital experiences, co-founder of PharmaBin, and advocate for climate action & the SDGs.",
-    image: "/rxquadri.webp",
-    liveLink: "https://rxquadri.vercel.app/",
-    githubLink: "https://github.com/Farouk-ayo/rxquadri",
-    stacks: ["Next.js", "TypeScript", "Tailwind CSS"],
+      "Developed a full stack web platform using React and Next.js to create a fast, responsive frontend with Tailwind CSS for a clean and intuitive UI. The backend, built with Node.js and Express.js, powers scalable APIs, while PostgreSQL manages data storage and complex queries. The application delivers a smooth user experience, high performance and a robust, scalable architecture, demonstrating modern full stack development and seamless JavaScript/SQL integration.",
+    image: "/2.jpg",
+    liveLink: "https://ronatec.us/",
+    stacks: ["React","NextJs", "TailwindCss", "NodJs","ExpressJs", "PostgreSQL"],
   },
 
-  {
-    name: "3D Avatar Fitting App",
-    type: "A Task Solution",
-    description:
-      "A 3D Avatar Fitting App that enables users to upload and interact with 3D avatar and clothing models (.glb/.gltf). It features auto-fitting logic, real-time color customization, scene state management, visibility toggling, and cloud file storage with a modern dark UI.",
-    image: "/avatar-fit.webp",
-    liveLink: "https://avatar-fit.vercel.app/",
-    githubLink: "https://github.com/Farouk-ayo/avatarFit",
-    loomLink: "https://loom.com/share/15e15cd4f6fb467592477eb4ce8a2f4c",
-    stacks: [
-      "Next.js",
-      "TypeScript",
-      "React Three Fiber",
-      "Material UI",
-      "Vercel Blob",
-    ],
-  },
-
-  {
-    name: "Mindvolta",
+    {
+    name: "Caprice Michelle",
     type: "Featured Project",
     description:
-      "Mindvolta is a smart mental health assistant that helps users, especially young people and undergraduates, manage conditions like depression, anxiety, and addiction. It includes mood tracking, calming playlists, and chatbot support tailored for emotional wellbeing.",
-    image: "/mindVolta.webp",
-    githubLink: "https://github.com/Farouk-ayo/mindvolta",
-    stacks: ["React Native", "TypeScript", "TailwindCss"],
+      "I worked as a Backend Developer alongside frontend engineers, designers and product stakeholders to support the Caprice Michelle platform. My role focused on building and maintaining backend services using Node.js, handling data flows, integrations and API logic to support dynamic frontend features. I also helped integrate Birdeye for reviews and customer engagement, ensuring reliable data synchronization and performance while collaborating closely with the team to deliver a stable, production ready system.",
+    image: "/6.jpg",
+    liveLink: "https://www.capricemichelle.com/",
+    stacks: ["React", "Node", "Material UI","Birdeye"],
   },
-  {
-    name: "PharmaBin",
+   {
+    name: "Lighting Design",
     type: "Featured Project",
     description:
-      "PharmaBin tackles pharmaceutical waste management in Nigeria by integrating technology, community engagement, and sustainability. It offers a safe, efficient, and eco-friendly solution for disposing of expired, unused, or contaminated medications.",
-    image: "/pharmabin.webp",
-    liveLink: "https://www.pharmabin.org/",
-    stacks: ["TypeScript", "Nextjs", "TailwindCss", "AOS", "Nodejs"],
-  },
-  {
-    name: "Farote Notes App",
-    type: "Personal Project",
-    description:
-      "Farote is a personal fullstack notes app I built to manage my ideas, quick thoughts, and to-dos. I wanted something I could use anywhere, so I made it a PWA, which means I can install and use it like a native app on my phone. It’s clean, responsive, and supports real-time note creation, editing, and deletion with a smooth, modern UI.",
-    image: "/farote.webp",
-    liveLink: "https://farote.vercel.app",
-    githubLink: "https://github.com/Farouk-ayo/Farote",
+      "A high performance website built with React and Node.js, featuring a responsive UI, scalable APIs and PWA support for fast, app like experiences across devices.",
+    image: "/7.jpg",
+    liveLink: "https://lightingdesign.com/",
     stacks: [
-      "TypeScript",
-      "Next.js",
-      "Tailwind CSS",
-      "Radix UI",
-      "date-fns",
+      "Javascript",
+      "React",
+      "Preact",
+      "ExpressJs",
       "MongoDB",
       "PWA",
     ],
   },
+
   {
-    name: "JustIron",
+    name: "WorkBoat",
     type: "Featured Project",
     description:
-      "JustIron simplifies laundry services with an intuitive online platform, offering seamless booking, scheduling, and real-time order tracking for users in the UK.",
-    image: "/justiron.webp",
-    liveLink: "https://www.justiron.co.uk/",
-    stacks: ["TypeScript", "React", "TailwindCss", "Redux"],
+      "This platform connects maritime professionals with vessels, jobs and industry resources. I solved complex challenges like normalizing large, inconsistent datasets from multiple registries and implemented a real time indexed search engine, improving query speed by over 70% and delivering a smooth, reliable user experience.",
+    image: "/4.jpg",
+    liveLink: "https://www.workboat.com/",
+    stacks: [
+      "React",
+      "Python",
+      "Django",
+      "Bootstrap",
+      "MongoDB"
+    ],
   },
-  {
-    name: "BerryStamp",
+    {
+    name: "The fairview",
     type: "Featured Project",
     description:
-      "Berrystamp is revolutionizing the print-on-demand industry with its innovative approach to customization and printing services.",
-    image: "/berrystamp.webp",
-    liveLink: "https://berrystamp.com/",
-    stacks: ["TypeScript", "React", "TailwindCss", "Redux"],
+      "Developed The Fairview NJ website using Python and Django, implementing a responsive, user friendly design with dynamic content management, secure backend functionality and optimized performance to deliver a seamless experience for visitors",
+    image: "11.jpg",
+    liveLink: "https://www.thefairviewnj.com/en/",
+    stacks: ["Python","Django", "Bootstrap","MongoDB"],
   },
 
   {
-    name: "BFN 2024 Yearbook",
+    name: "High Plains Motors",
     type: "Featured Project",
     description:
-      "Developed the Black Founders Network 2024 Yearbook microsite to showcase founders and promote engagement. Designed for clarity, accessibility, and smooth navigation.",
-    image: "/bfn-2024.webp",
-    liveLink: "https://www.programs-bfn.ca/yearbook-2024",
-    stacks: ["TypeScript", "React", "TailwindCss", "AOS"],
+      "I contributed to the development of the High Plains Motors website, an automotive platform for browsing inventory, viewing listings, and submitting inquiries. I worked on building responsive interfaces, developing APIs for dynamic data, and ensuring secure user interactions. I also enhanced client-side functionality and supported deployment processes, helping deliver a reliable, high-performance platform that improved user engagement and lead generation.",
+    image: "/5.jpg",
+  liveLink: "https://highplainsmotors.com/",
+    stacks: [
+      "Javascript",
+      "ASP.Net",
+      "Bootstrap",
+      "Azure DevOps"
+    ],
   },
-  // {
-  //   name: "TMDB v2 Mobile App",
-  //   type: "Personal Project",
-  //   description:
-  //     "A mobile movie discovery app consuming The Movie Database (TMDB) API. Users can explore trending movies, view detailed info, and search across genres with a clean and responsive React Native interface.",
-  //   image: "/tmdb-v2.webp",
-  //   stacks: ["React Native", "TypeScript", "TMDB API"],
-  //   githubLink: "https://github.com/Farouk-ayo/tmdb-v2-mobile-app",
-  //   liveLink: "https://expo.dev/artifacts/eas/wWgr9LmHE1qD5SnQKHA6QS.aab",
-  // },
+
   {
-    name: "GSwift",
+    name: "F.A.Davis",
     type: "Featured Project",
     description:
-      "A Gwift web app is a progressive ridesharing application with real-time tracking, seamless geocoordinate integration, and a user-friendly interface, prioritizing smooth navigation and efficient API consumption.",
-    image: "/gswift.webp",
-    liveLink: "https://gswift.pathpalz.com/",
-    stacks: ["TypeScript", "React", "TailwindCss"],
-  },
-  {
-    name: "DeepFocustt",
-    type: "Featured Project",
-    description:
-      "For the DeepFocustt project, I developed and integrated animations by incorporating full HTML code, including CSS, JavaScript, and additional packages, to create a dynamic and engaging user experience on their Wix platform",
-    image: "/deepfocus.webp",
-    liveLink: "https://www.deepfocustt.com/",
-    stacks: ["Wix", "Css", "Html", "Gsap"],
-  },
-  {
-    name: "Huntstore",
-    type: "Personal Project",
-    description:
-      "Huntstore is an ecommerce store that shows a variety of gender products.",
-    image: "/huntstore.webp",
-    liveLink: "https://huntstore.vercel.app/",
-    githubLink: "https://github.com/Farouk-ayo/huntstore",
-    stacks: ["JavaScript", "React", "css"],
-  },
-  {
-    name: "Duplicate character remover",
-    type: "Personal Project",
-    description:
-      "A houseware frontend engineering octernship task to develop a webapp for deletion of duplicate characters on clicking on the selected duplicated character or text",
-    image: "/duplicateremover.webp",
-    liveLink:
-      "https://houseware-frontend-engineering-octernship-frk-ayo.vercel.app/",
-    stacks: ["JavaScript", "React", "css"],
-  },
-  {
-    name: "E-vent",
-    type: "Featured Project",
-    description:
-      "E-vent is a centralized platform for event planners, organizers and attendees, to coordinate and manage various aspects of events such as scheduling, ticketing, registration, marketing and communication",
-    image: "/e-vent.webp",
-    stacks: ["JavaScript", "React", "Tailwind", "Mui"],
-  },
-  {
-    name: "MovieBox",
-    type: "Personal Project",
-    description:
-      "A movie discovery web application that allows users to search for movies, view details about them, and save their favorite movies, consuming data from the TMDB API.",
-    image: "/moviebox.webp",
-    liveLink: "https://movie-box-tmdb.vercel.app/",
-    githubLink: "https://github.com/Farouk-ayo/movie--boxTMDB/tree/master",
-    stacks: ["JavaScript", "React", "css"],
-  },
-  {
-    name: "Penslab",
-    type: "Featured Project",
-    description:
-      "An Electrical Electronics Engineering Departmental Project in connection to an Arduino Sensor",
-    image: "/penslab.webp",
-    liveLink: "https://penslab.vercel.app/",
-    githubLink: "https://github.com/Farouk-ayo/penslab",
-    stacks: ["JavaScript", "React", "Tailwind"],
-  },
-  {
-    name: "Yalbaze",
-    type: "Personal Project",
-    description: "A designed webapp landing page",
-    image: "/yalbaze.webp",
-    githubLink: "https://github.com/Farouk-ayo/yalbaze",
-    liveLink: "https://yalbaze.vercel.app/",
-    stacks: ["css", "React"],
-  },
-  {
-    name: "Frk-ayo",
-    type: "Personal Project",
-    description:
-      "The aim of the project was to attract the users with the UI, which i built with HTML/CSS and JavaScript.",
-    image: "/frk_ayo.webp",
-    githubLink: "https://github.com/Farouk-ayo/Frkayo-Financesite",
-    liveLink: "https://frkayo-financesite.vercel.app",
-    stacks: ["Sass/scss", "Html", "JavaScript"],
+      "An healthcare web platform built with Angular (TypeScript) and ASP.NET (C#), featuring a Material UI based interface and an integrated AI powered chatbot to assist users with content discovery and support, backed by secure and scalable APIs.",
+    image: "/9.jpg",
+    liveLink: "https://www.fadavis.com/",
+    stacks: ["TypeScript","Angular", "Material UI","C#","ASP.Net",],
   },
   ,
 ];
